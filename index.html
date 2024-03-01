@@ -11,20 +11,21 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" src="./style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main>
+    <div class="container">
       <h1>Currency Converter</h1>
-      <div class="container">
-        <form>
-          <div class="amount">
-            <p>Enter Amount</p>
-            <input type="text" id="inputValue" />
-          </div>
-          <div class="dropdown">
-            <div class="select-Container">
-              <p>From</p>
+      <form>
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input value="1" type="text" />
+        </div>
+        <!--  Amount Class Ending -->
+        <div class="dropdown">
+          <div class="from">
+            <p>From</p>
+            <div class="select-container">
               <img src="https://flagsapi.com/BE/flat/64.png" />
               <select class="from">
                 <option>USD</option>
@@ -33,22 +34,25 @@
                 <option>INR</option>
               </select>
             </div>
-            <i class="fa-solid fa-arrow-right-arrow-left"></i>
           </div>
-          <div class="select-Container">
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <div class="to">
             <p>To</p>
-            <img src="https://flagsapi.com/BE/flat/64.png" />
-            <select class="to">
-              <option selected>USD</option>
-              <option>AED</option>
-              <option>PKR</option>
-              <option>INR</option>
-            </select>
+            <div class="select-container">
+              <img src="https://flagsapi.com/BE/flat/64.png" />
+              <select class="to">
+                <option selected>USD</option>
+                <option>AED</option>
+                <option>PKR</option>
+                <option>INR</option>
+              </select>
+            </div>
           </div>
-          <div class="msg">pkr = USD</div>
-          <button>Get Echange Rate</button>
-        </form>
-      </div>
-    </main>
+        </div>
+        <!--  Dropdown Class Ending -->
+        <div class="msg">pkr = USD</div>
+        <button>Get Echange Rate</button>
+      </form>
+    </div>
   </body>
 </html>
