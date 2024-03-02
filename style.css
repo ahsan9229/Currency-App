@@ -8,13 +8,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: bisque;
+  background-color: #f4e4ba;
 }
 
 .container {
-  background-color: white;
-  padding: 3rem;
-  border-radius: 5rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
   min-height: 45vh;
   width: 40vh;
 }
@@ -41,7 +41,7 @@ form input {
 
 .dropdown {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
 }
@@ -52,7 +52,8 @@ form input {
 }
 
 .select-container img {
-  max-width: 3rem;
+  max-width: 2rem;
+  border-radius: 0.75rem;
 }
 .select-container {
   display: flex;
