@@ -1,5 +1,5 @@
 let Base_URL =
-  "https://v6.exchangerate-api.com/v6/e09560fc6fd1648caabf30b5/pair/";
+  "https://v6.exchangerate-api.com/v6/{Add your Key Hear}/pair/";
 
 const selects = document.querySelectorAll(".dropdown select");
 const btn = document.querySelector("form button");
